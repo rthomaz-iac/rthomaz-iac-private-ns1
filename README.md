@@ -9,7 +9,7 @@ Servidor de DNS Primário de rede privada
 
 ### Pré-requisitos
 
-[Instalação](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Raspberry Pi 3 - Instalação-Padrão](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Instalação-Padrão)
 
 ### Instalação básica
 
