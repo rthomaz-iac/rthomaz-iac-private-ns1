@@ -11,6 +11,8 @@ Servidor de DNS Primário de rede privada
 
 [Raspberry Pi 3 - Instalação](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Instalação)
 
+[Raspberry Pi 3 - Configuração Inicial](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Configura%C3%A7%C3%A3o-Inicial)
+
 ### Instalação básica
 
 ## Usando
