@@ -9,9 +9,7 @@ Servidor de DNS Primário de rede privada
 
 ### Pré-requisitos
 
-[Raspberry Pi 3 - Instalação](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Instalação)
-
-[Raspberry Pi 3 - Configuração Inicial](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Configura%C3%A7%C3%A3o-Inicial)
+[Raspberry Pi 3 - Criando (sem-Domínio)](Raspberry-Pi-3-Criando-(sem-Domínio))
 
 ### Instalação básica
 
