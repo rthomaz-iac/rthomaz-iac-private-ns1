@@ -1,11 +1,11 @@
-zone "nyc3.example.com" {
+zone "corp.rthomaz.com.br" {
     type master;
-    file "/etc/bind/zones/db.nyc3.example.com"; # zone file path
-    allow-transfer { 10.128.20.12; };           # ns2 private IP address - secondary
+    file "/etc/bind/zones/db.corp.rthomaz.com.br"; # zone file path
+    allow-transfer { 192.168.1.12; };              # ns2 private IP address - secondary
 };
 
-zone "128.10.in-addr.arpa" {
+zone "168.192.in-addr.arpa" {
     type master;
-    file "/etc/bind/zones/db.10.128";  # 10.128.0.0/16 subnet
-    allow-transfer { 10.128.20.12; };  # ns2 private IP address - secondary
+    file "/etc/bind/zones/db.192.168";  # 192.168.1.0/24 subnet
+    allow-transfer { 192.168.1.12; };   # ns2 private IP address - secondary
 };
