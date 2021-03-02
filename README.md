@@ -10,6 +10,17 @@ Servidor de DNS Primário de rede privada
 ### Pré-requisitos
 
 [Instalação](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Instalação](/rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Instalação](/rthomaz-iac-wiki/wiki/default-installation)
+
+[Instalação](./rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Instalação](./rthomaz-iac-wiki/wiki/default-installation)
+
+[Instalação](~/rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Instalação](~/rthomaz-iac-wiki/wiki/default-installation)
+
+[Instalação](../rthomaz-iac/rthomaz-iac-wiki/wiki/default-installation)
+[Instalação](../rthomaz-iac-wiki/wiki/default-installation)
 
 ### Instalação básica
 
