@@ -22,7 +22,7 @@ Servidor de DNS Primário de rede privada
 
 `$ sudo apt-get install bind9 bind9utils bind9-doc`
 
-### Configuração IPV4
+### Configuração IPV4 para o bind
 
 `$ sudo cp /etc/default/bind9 /etc/default/bind9.original`
 
