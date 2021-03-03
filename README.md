@@ -131,6 +131,18 @@ Execute o comando a seguir para verificar a sintaxe dos arquivos _named.conf*_:
 
 `$ sudo named-checkconf`
 
+###  Verificando a configuração da zona de encaminhamento 
+
+Execute o seguinte comando:
+
+`$ sudo named-checkzone corp.rthomaz.com.br db.corp.rthomaz.com.br`
+
+### Verificando a configuração da zona reversa
+
+Execute o seguinte comando:
+
+`$ sudo named-checkzone 128.10.in-addr.arpa /etc/bind/zones/db.10.128`
+
 ## Referências
 
 - https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04-pt
