@@ -6,7 +6,7 @@ Servidor de DNS Primário de rede privada
 
 |**hostname:**|ns1|
 |---|---|
-|**ip address:**|192.168.1.5|
+|**ip address:**|192.168.1.11|
 |**subnet mask:**|255.255.255.0|
 |**domain:**|corp.rthomaz.com.br|
 
