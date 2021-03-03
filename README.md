@@ -141,7 +141,7 @@ Execute o seguinte comando:
 
 Execute o seguinte comando:
 
-`$ sudo named-checkzone 128.10.in-addr.arpa /etc/bind/zones/db.10.128`
+`$ sudo named-checkzone 168.192.in-addr.arpa /etc/bind/zones/db.192.168`
 
 ## Referências
 
