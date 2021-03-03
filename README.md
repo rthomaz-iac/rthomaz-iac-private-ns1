@@ -9,7 +9,7 @@ Servidor de DNS Primário de rede privada
 
 ### Pré-requisitos
 
-[Raspberry Pi 3 - Criando (sem-Domínio)](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Criando-(sem-Dom%C3%ADnio))
+[Raspbian Instalação e Configuração (sem-Domínio)](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspbian-Instala%C3%A7%C3%A3o-e-Configura%C3%A7%C3%A3o-(sem-Dom%C3%ADnio))
 
 ### Instalação
 
