@@ -15,6 +15,26 @@ Servidor de DNS Primário de rede privada
 
 `$ sudo apt-get install bind9 bind9utils bind9-doc`
 
+### Configuração
+
+`$ sudo cp /etc/default/bind9 /etc/default/bind9.original`
+
+`$ sudo nano /etc/default/bind9`
+
+`$ sudo cp /etc/bind/named.conf.options /etc/bind/named.conf.options.original`
+
+`$ sudo nano /etc/bind/named.conf.options`
+
+`$ sudo cp /etc/bind/named.conf.local /etc/bind/named.conf.local.original`
+
+`$ sudo nano /etc/bind/named.conf.local`
+
+`$ sudo mkdir /etc/bind/zones`
+
+`$ sudo nano /etc/bind/zones/db.corp.rthomaz.com.br`
+
+`$ sudo nano /etc/bind/zones/db.192.168`
+
 ## Usando
 
 ### Windows
