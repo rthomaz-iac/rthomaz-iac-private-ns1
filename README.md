@@ -26,8 +26,13 @@ Servidor de DNS Primário de rede privada
 
 `$ sudo nano /etc/default/bind9`
 
+    #
+    # run resolvconf?
+    RESOLVCONF=no
+    
+    # startup options for the server
     OPTIONS="-u bind -4"
-
+    
 `$ sudo cp /etc/bind/named.conf.options /etc/bind/named.conf.options.original`
 
 `$ sudo nano /etc/bind/named.conf.options`
