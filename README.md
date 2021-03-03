@@ -39,7 +39,7 @@ Agora reinicie o bind para aplicar as configurações.
 
 `$ sudo systemctl restart bind9`
 
-### Configuração do bind
+### Configuração as opções do bind
 
 `$ sudo cp /etc/bind/named.conf.options /etc/bind/named.conf.options.original`
 
@@ -66,6 +66,8 @@ Agora reinicie o bind para aplicar as configurações.
             };
     };
     
+### Configuração o arquivo local do bind
+
 `$ sudo cp /etc/bind/named.conf.local /etc/bind/named.conf.local.original`
 
 `$ sudo nano /etc/bind/named.conf.local`
@@ -82,6 +84,8 @@ Agora reinicie o bind para aplicar as configurações.
         allow-transfer { 192.168.1.12; };   # ns2 private IP address - secondary
     };
     
+### Configuração as zonas
+
 `$ sudo mkdir /etc/bind/zones`
 
 `$ sudo nano /etc/bind/zones/db.corp.rthomaz.com.br`
