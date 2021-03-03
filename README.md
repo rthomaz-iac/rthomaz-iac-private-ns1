@@ -11,7 +11,9 @@ Servidor de DNS Primário de rede privada
 
 [Raspberry Pi 3 - Criando (sem-Domínio)](https://github.com/rthomaz-iac/rthomaz-iac-wiki/wiki/Raspberry-Pi-3-Criando-(sem-Dom%C3%ADnio))
 
-### Instalação básica
+### Instalação
+
+`$ sudo apt-get install bind9 bind9utils bind9-doc`
 
 ## Usando
 
