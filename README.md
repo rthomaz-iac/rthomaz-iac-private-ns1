@@ -4,6 +4,11 @@ Servidor de DNS Primário de rede privada
 
 [![CI](https://github.com/rthomaz-iac/rthomaz-iac-private-ns1/workflows/CI/badge.svg)](https://github.com/rthomaz-iac/rthomaz-iac-private-ns1/actions?query=workflow%3ACI)
 
+|**hostname:**|ns1|
+|---|---|
+|**ip address:**|192.168.1.5|
+|**subnet mask:**|255.255.255.0|
+|**domain:**|corp.rthomaz.com.br|
 
 ## Começando
 
