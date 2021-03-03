@@ -22,7 +22,7 @@ Servidor de DNS Primário de rede privada
 
 `$ sudo apt-get install bind9 bind9utils bind9-doc`
 
-### Configuração
+### Configuração IPV4
 
 `$ sudo cp /etc/default/bind9 /etc/default/bind9.original`
 
@@ -34,7 +34,13 @@ Servidor de DNS Primário de rede privada
     
     # startup options for the server
     OPTIONS="-u bind -4"
-    
+
+Agora reinicie o bind para aplicar as configurações.
+
+`$ sudo systemctl restart bind9`
+
+### Configuração do bind
+
 `$ sudo cp /etc/bind/named.conf.options /etc/bind/named.conf.options.original`
 
 `$ sudo nano /etc/bind/named.conf.options`
