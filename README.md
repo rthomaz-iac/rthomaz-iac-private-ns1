@@ -125,7 +125,9 @@ Agora reinicie o bind para aplicar as configurações.
     15.1    IN      PTR     jenkins.corp.rthomaz.com.br.  ; 192.168.1.15
     16.1    IN      PTR     nexus.corp.rthomaz.com.br.    ; 192.168.1.16
     
-Testando as configurações:
+### Verificando a sintaxe de configuração do BIND
+
+Execute o comando a seguir para verificar a sintaxe dos arquivos _named.conf*_:
 
 `$ sudo named-checkconf`
 
