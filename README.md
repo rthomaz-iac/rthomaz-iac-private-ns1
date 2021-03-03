@@ -84,7 +84,7 @@ Agora reinicie o bind para aplicar as configurações.
         allow-transfer { 192.168.1.12; };   # ns2 private IP address - secondary
     };
     
-### Configuração as zonas
+### Configuração a zona de encaminhamento
 
 `$ sudo mkdir /etc/bind/zones`
 
@@ -110,6 +110,8 @@ Agora reinicie o bind para aplicar as configurações.
     jenkins.corp.rthomaz.com.br.      IN      A       192.168.1.15
     nexus.corp.rthomaz.com.br.        IN      A       192.168.1.16
     
+### Configuração a zona reversa
+
 `$ sudo nano /etc/bind/zones/db.192.168`
 
     $TTL    604800
