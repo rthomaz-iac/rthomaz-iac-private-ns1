@@ -64,7 +64,7 @@ Agora reinicie o bind para aplicar as configurações.
                     8.8.8.8;
                     8.8.4.4;
             };
-    }
+    };
     
 `$ sudo cp /etc/bind/named.conf.local /etc/bind/named.conf.local.original`
 
