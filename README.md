@@ -143,6 +143,12 @@ Execute o seguinte comando:
 
 `$ sudo named-checkzone 168.192.in-addr.arpa /etc/bind/zones/db.192.168`
 
+### Aplicando as configurações
+
+Agora reinicie o bind para aplicar as configurações.
+
+`$ sudo systemctl restart bind9`
+
 ## Referências
 
 - https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-18-04-pt
