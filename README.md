@@ -39,7 +39,7 @@ Agora reinicie o bind para aplicar as configurações.
 
 `$ sudo systemctl restart bind9`
 
-### Configuração as opções do bind
+### Configurando as opções do bind
 
 `$ sudo cp /etc/bind/named.conf.options /etc/bind/named.conf.options.original`
 
@@ -66,7 +66,7 @@ Agora reinicie o bind para aplicar as configurações.
             };
     };
     
-### Configuração o arquivo local do bind
+### Configurando o arquivo local do bind
 
 `$ sudo cp /etc/bind/named.conf.local /etc/bind/named.conf.local.original`
 
@@ -84,7 +84,7 @@ Agora reinicie o bind para aplicar as configurações.
         allow-transfer { 192.168.1.12; };   # ns2 private IP address - secondary
     };
     
-### Configuração a zona de encaminhamento
+### Configurando a zona de encaminhamento
 
 `$ sudo mkdir /etc/bind/zones`
 
@@ -110,7 +110,7 @@ Agora reinicie o bind para aplicar as configurações.
     jenkins.corp.rthomaz.com.br.      IN      A       192.168.1.15
     nexus.corp.rthomaz.com.br.        IN      A       192.168.1.16
     
-### Configuração a zona reversa
+### Configurando a zona reversa
 
 `$ sudo nano /etc/bind/zones/db.192.168`
 
