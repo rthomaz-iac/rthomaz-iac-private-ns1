@@ -135,7 +135,7 @@ Execute o comando a seguir para verificar a sintaxe dos arquivos _named.conf*_:
 
 Execute o seguinte comando:
 
-`$ sudo named-checkzone corp.rthomaz.com.br db.corp.rthomaz.com.br`
+`$ sudo named-checkzone corp.rthomaz.com.br /etc/bind/zones/db.corp.rthomaz.com.br`
 
 ### Verificando a configuração da zona reversa
 
