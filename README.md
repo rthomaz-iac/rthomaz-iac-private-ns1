@@ -45,11 +45,9 @@ Agora reinicie o bind para aplicar as configurações.
 
 `$ sudo nano /etc/bind/named.conf.options`
 
+    # IP addresses and network ranges allowed to run recursive queries
     acl "trusted" {
-        192.168.1.11;    # ns1 - can be set to localhost
-        192.168.1.12;    # ns2
-        192.168.1.15;    # jenkins
-        192.168.1.16;    # nexus
+        127.0.0.1;       # ns1 - can be set to localhost
         192.168.1.0/24;
     };
 
