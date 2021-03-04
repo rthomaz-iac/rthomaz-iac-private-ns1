@@ -50,6 +50,7 @@ Agora reinicie o bind para aplicar as configurações.
         192.168.1.12;    # ns2
         192.168.1.15;    # jenkins
         192.168.1.16;    # nexus
+        192.168.1.0/24;
     };
 
     options {
