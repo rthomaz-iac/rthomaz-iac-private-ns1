@@ -20,7 +20,11 @@ Servidor de DNS Primário de rede privada
 
 `$ sudo apt-get update`
 
+ Instalando o BIND:
+ 
 `$ sudo apt-get install bind9 bind9utils bind9-doc`
+
+ Instalando utilitários de DNS:
 
 `$ sudo apt-get install dnsutils`
 
